@@ -38,7 +38,7 @@ export const Header = () => {
 
   return (
     <header className={`${lastScrollY === 0 ? "bg-orange-600" : "bg-orange-600 bg-opacity-85"} fixed top-0 w-full z-20 transition-transform duration-700 ${show ? "translate-y-0 shadow-2xl" : "-translate-y-full "}`}>
-      <CardNavbar className={`${lastScrollY === 0 ? "bg-orange-600" : "bg-orange-600 bg-opacity-0"} flex justify-between transition-transform duration-300 items-center py-4 sm:px-16 container`}>
+      <CardNavbar className={`${lastScrollY === 0 ? "bg-orange-600" : "bg-orange-600 bg-opacity-0"} flex justify-between transition-transform duration-300 items-center px-4 py-4 sm:px-16 container`}>
         <Link href="/">
           <Image src="/suitmedia.png" width={100} height={100} loading="lazy" alt="Suitmedia" className="h-auto" />
         </Link>
