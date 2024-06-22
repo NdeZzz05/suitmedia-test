@@ -5,9 +5,7 @@ export default function Work() {
   const teks = "Hai, Sekarang ini adalah halaman Work";
   return (
     <main>
-      <section>
-        <Banner title={title} teks={teks} />
-      </section>
+      <Banner title={title} teks={teks} />
     </main>
   );
 }
